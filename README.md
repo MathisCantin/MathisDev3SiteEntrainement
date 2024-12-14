@@ -1,5 +1,12 @@
 # Documentation du site d'entrainement
 
+## Description sommaire de l'application
+L'application permet aux utilisateurs de :
+
+Créer et consulter leurs entraînements personnels.
+Consulter une liste d'entraînements publics partagés par d'autres utilisateurs.
+Cette plateforme vise à suivre ses entraînements physiques pour les amateurs et les professionnels.
+
 ## Installation du site sur un poste local
 
 ### Prérequis
@@ -19,12 +26,12 @@ cd votre-repository
 ### Installez les dépendances
 npm install
 
-### Modifiez le fichier api.ts et ajoutez ..
+### Modifiez le fichier api.ts et remplacez l'URL de l'API par celle que vous utilisez
 ```/serives/api.ts
-const API_URL = ''; 
+const API_URL = 'Url'; 
 ```
 
 ### Démarrez le site
 npm run dev
 
-### Url du site en ligne: https://mathisdev3api.onrender.com/
+### Url du site en ligne: https://site-entrainements.netlify.app/
